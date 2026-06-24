@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv - Bona Park</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #ffffff;
+            color: #000000;
+            margin: 0;
+            padding: 50px 30px;
+            line-height: 1.7;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            font-size: 28px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            margin-bottom: 30px;
+        }
+        h1 a {
+            text-decoration: none;
+            color: #000000;
+        }
+        nav {
+            margin-bottom: 50px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            gap: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #000000;
+            font-size: 14px;
+            letter-spacing: 1px;
+        }
+        nav ul li a.active {
+            font-weight: bold;
+        }
+        .cv-section {
+            margin-bottom: 40px;
+        }
+        .cv-section h2 {
+            font-size: 16px;
+            font-weight: bold;
+            border-bottom: 1px solid #000000;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .cv-item {
+            font-size: 14px;
+            margin-bottom: 10px;
+            display: flex;
+        }
+        .cv-year {
+            width: 90px;
+            flex-shrink: 0;
+        }
+        .cv-desc {
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><a href="index.html">BONA PARK</a></h1>
+        
+        <nav>
+            <ul>
+                <li><a href="worklist.html">WORKS</a></li>
+                <li><a href="cv.html" class="active">CV</a></li>
+                <li><a href="index.html">HOME</a></li>
+            </ul>
+        </nav>
+
+        <div class="cv-section">
+            <h2>Education</h2>
+            <div class="cv-item">
+                <div class="cv-year">2006-2008</div>
+                <div class="cv-desc">MFA Art practice, Goldsmiths College, University of London, UK</div>
+            </div>
+            <div class="cv-item">
+                <div class="cv-year">2001-2004</div>
+                <div class="cv-desc">BA Fine art, Korea National University of Arts, Seoul, Korea</div>
+            </div>
+        </div>
+
+        <div class="cv-section">
+            <h2>Selected solo shows & projects</h2>
+            <div class="cv-item">
+                <div class="cv-year">2019</div>
+                <div class="cv-desc">Black Holes Have No Hair, Gallery Choson, Seoul, Korea</div>
+            </div>
+            <div class="cv-item">
+                <div class="cv-year">2015</div>
+                <div class="cv-desc">Kotakina Blue, Sindoh Art Space, Seoul, Korea</div>
+            </div>
+            <div class="cv-item">
+                <div class="cv-year">2011</div>
+                <div class="cv-desc">FREE Flight, Platform Place 629, Seoul, Korea</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
