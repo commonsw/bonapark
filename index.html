@@ -2,10 +2,85 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>내 첫 웹사이트</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bona Park</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #ffffff;
+            color: #000000;
+            margin: 0;
+            padding: 50px 30px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            font-size: 28px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            margin-bottom: 30px;
+        }
+        h1 a {
+            text-decoration: none;
+            color: #000000;
+        }
+        nav {
+            margin-bottom: 50px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            margin-bottom: 10px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #000000;
+            font-size: 16px;
+            letter-spacing: 1px;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            margin-top: 40px;
+            font-size: 14px;
+        }
+        footer {
+            margin-top: 100px;
+            font-size: 11px;
+            color: #666666;
+            letter-spacing: 0.5px;
+        }
+    </style>
 </head>
 <body>
-    <h1>안녕하세요! 깃허브 페이지스로 만든 사이트입니다.</h1>
-    <p>성공적으로 배포되었습니다. 🎉</p>
+    <div class="container">
+        <h1><a href="index.html">BONA PARK</a></h1>
+        
+        <nav>
+            <ul>
+                <li><a href="worklist.html">WORKS</a></li>
+                <li><a href="#articles">ARTICLES</a></li>
+                <li><a href="cv.html">CV</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="#korean" style="color: #888888;">한국어 KOREAN</a></li>
+            </ul>
+        </nav>
+
+        <div class="content">
+            <p>When Attitudes Become Artwork, Bona Park, Badabooks, Seoul, 2019.</p>
+            <p>When We Call Every Single Being, Bona Park, Hanibooks, Seoul, 2021.</p>
+        </div>
+
+        <footer>
+            <p>COPYRIGHT © 2026 BONA PARK ALL RIGHTS RESERVED.</p>
+        </footer>
+    </div>
 </body>
 </html>
